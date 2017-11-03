@@ -1,0 +1,33 @@
+{
+  "name": "reactjs_practice",
+  "version": "1.0.0",
+  "description": "ReactJS Practice set as per standard",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ es2015 react] ] -o js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riaconsultant/Reactjs_Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riaconsultant/Reactjs_Practice/issues"
+  },
+  "homepage": "https://github.com/riaconsultant/Reactjs_Practice#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "create-react-class": "^15.6.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "watchify": "^3.9.0"
+  }
+}
