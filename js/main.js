@@ -1,1 +1,0 @@
-console.error("SyntaxError: /Users/manojchaurasiya/jsproject/learning-git/Reactjs_Practice/.babelrc: Error while parsing JSON - Unexpected EOF at line 1 column 2 of the JSON5 data. Still to read: \"\" while parsing file: /Users/manojchaurasiya/jsproject/learning-git/Reactjs_Practice/src/main.jsx");
