@@ -1,0 +1,17 @@
+2017-12-06T23:19:24.003664000 0.304032s notice: Recursively removing directory /Users/manojchaurasiya/jsproject/learning-git/Reactjs_Practice/reactpractice/rethinkdb_data/tmp
+2017-12-06T23:19:24.007135000 0.307511s notice: Initializing directory /Users/manojchaurasiya/jsproject/learning-git/Reactjs_Practice/reactpractice/rethinkdb_data
+2017-12-06T23:19:24.007303000 0.307670s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/manojchaurasiya/jsproject/learning-git/Reactjs_Practice/reactpractice/rethinkdb_data' did not already exist or is empty.)
+2017-12-06T23:19:24.007339000 0.307705s notice: Running rethinkdb 2.3.6 (CLANG 8.1.0 (clang-802.0.42))...
+2017-12-06T23:19:24.030426000 0.330806s notice: Running on Darwin 16.7.0 x86_64
+2017-12-06T23:19:24.030542000 0.330909s notice: Loading data from directory /Users/manojchaurasiya/jsproject/learning-git/Reactjs_Practice/reactpractice/rethinkdb_data
+2017-12-06T23:19:24.157741000 0.458108s info: Automatically using cache size of 100 MB
+2017-12-06T23:19:24.157751000 0.458117s warn: Cache size does not leave much memory for server and query overhead (available memory: 664 MB).
+2017-12-06T23:19:24.157775000 0.458141s warn: Cache size is very low and may impact performance.
+2017-12-06T23:19:24.158482000 0.458849s notice: Listening for intracluster connections on port 29015
+2017-12-06T23:19:24.160817000 0.461183s notice: Listening for client driver connections on port 28015
+2017-12-06T23:19:24.160970000 0.461336s notice: Listening for administrative HTTP connections on port 8080
+2017-12-06T23:19:24.160972000 0.461338s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-12-06T23:19:24.160977000 0.461343s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-12-06T23:19:24.160978000 0.461345s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-12-06T23:19:24.160982000 0.461348s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-12-06T23:19:24.160986000 0.461352s notice: Server ready, "Manojs_Air_ipr" ee335780-8887-49e1-a5a5-de41aca0c722
