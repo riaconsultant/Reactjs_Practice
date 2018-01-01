@@ -15,3 +15,8 @@
 2017-12-06T23:19:24.160978000 0.461345s notice: Listening on http addresses: 127.0.0.1, ::1
 2017-12-06T23:19:24.160982000 0.461348s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
 2017-12-06T23:19:24.160986000 0.461352s notice: Server ready, "Manojs_Air_ipr" ee335780-8887-49e1-a5a5-de41aca0c722
+2017-12-07T20:34:27.959918000 3280.331372s notice: Server got SIGINT from pid 2512, uid 501; shutting down...
+2017-12-07T20:34:27.962277000 3280.333727s notice: Shutting down client connections...
+2017-12-07T20:34:27.988761000 3280.360211s notice: All client connections closed.
+2017-12-07T20:34:27.988789000 3280.360238s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-12-07T20:34:28.008372000 3280.379821s notice: Storage engine shut down.
