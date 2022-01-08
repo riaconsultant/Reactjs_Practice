@@ -18,7 +18,7 @@ const EventCom: React.FC<any> = ({ children, message }) => {
   };
   return (
     <div>
-      <label>{message}</label> -- {msg}
+      <label>{message}</label> -- {msg} <br />
       <button onClick={clickme}>Click Static</button>
       <br />
       <button onClick={() => clickParam("param")}>

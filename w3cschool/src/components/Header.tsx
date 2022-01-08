@@ -1,5 +1,6 @@
 import React from "react";
-import EventCom from "./EventCom";
+import { Condition, EventCom, List, Form } from "./";
+
 const Header: React.FC = (props: any) => {
   console.log("Props", props);
   // props.message = "hello world";
@@ -8,7 +9,11 @@ const Header: React.FC = (props: any) => {
     <header className="">
       <p>Hello React App</p>
       Learn React
-      <EventCom message={data}></EventCom>
+      <EventCom message={data} />
+      <Condition isGoal={false} />
+      <hr />
+      <List />
+      <Form />
     </header>
   );
 };
