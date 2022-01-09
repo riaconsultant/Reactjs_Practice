@@ -25,8 +25,13 @@ const Form: React.FC<any> = (props: any) => {
 };
 
 const MultiForm = () => {
-  const [inputs, setInputs] = useState({ username: "", age: "" });
-
+  const [inputs, setInputs] = useState({
+    username: "",
+    age: "",
+    address: "",
+    car: "",
+  });
+  const cars = ["BMW", "AUdi", "Bench", "Hyundai", "Tata"];
   const submitHandler = (e: any) => {
     e.preventDefault();
     console.log("Multiple Form", e.target, inputs);
@@ -56,6 +61,19 @@ const MultiForm = () => {
         value={inputs.age || ""}
         onChange={changeHandler}
       />
+      <label>Address</label>
+      <textarea
+        name="address"
+        value={inputs.address || ""}
+        onChange={changeHandler}
+      />
+      <label>My Car</label>
+      <select name="car" value={inputs.car} onChange={changeHandler}>
+        <option></option>
+        {cars.map((car) => (
+          <option key={car}>{car}</option>
+        ))}
+      </select>
       <input type="submit" />
     </form>
   );
