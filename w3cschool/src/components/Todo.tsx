@@ -1,4 +1,5 @@
 import React, { memo } from "react";
+import "./../styles/my-sass.scss";
 const Todo = (props: any) => {
   console.log("Child Component", props.todoc);
   const style = {
@@ -15,7 +16,6 @@ const Todo = (props: any) => {
     <div>
       <h1
         style={{
-          color: "red",
           backgroundColor: "lightblue",
           border: "1px solid #ccc",
         }}
