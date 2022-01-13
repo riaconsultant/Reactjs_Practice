@@ -1,4 +1,6 @@
 import React, { useState, createContext, useContext } from "react";
+import CallbackExample from "../components/CallbackExample";
+import RefExample from "../components/RefExample";
 
 const UserContext = createContext("");
 const Blogs = () => {
@@ -51,6 +53,8 @@ const Comp6: React.FC<any> = () => {
     <div>
       <h2>Comp6</h2>
       <h2>{`Hello  ${user} again!`}</h2>
+      <RefExample />
+      <CallbackExample />
     </div>
   );
 };
